@@ -17,6 +17,8 @@ jobs:
           # If set to true, the issues or the pull requests with an assignee will not be marked as stale automatically.
           exempt-all-assignees: true
 
+          days-before-stale: -1
+
           # Issue
           # days-before-issue-stale: 60
           stale-issue-message: 'This issue is stale because it has been open 60 days with no activity. Remove stale label or comment or this will be closed in 7 days.'
