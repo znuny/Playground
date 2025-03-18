@@ -17,7 +17,7 @@ jobs:
           # If set to true, the issues or the pull requests with an assignee will not be marked as stale automatically.
           exempt-all-assignees: true
 
-          days-before-stale: -1
+          days-before-stale: 0
 
           # Issue
           # days-before-issue-stale: 60
