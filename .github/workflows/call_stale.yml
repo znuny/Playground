@@ -8,4 +8,4 @@ on:
 
 jobs:
   Stale:
-    uses: znuny/GitHub/.github/workflows/stale.yml@dev
+    uses: znuny/Playground/.github/workflows/stale.yml@dev
