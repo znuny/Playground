@@ -1,0 +1,11 @@
+include:
+  - project: $INCLUDE_PROJECT
+    file: '/templates/gitlab/base.yml'
+
+stages:
+  - utils
+  - check
+  - deploy
+
+GitHub:
+  extends: .deploy_github
