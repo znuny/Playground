@@ -1,0 +1,99 @@
+---
+name: Bug Report
+description: Create a bug report to help us improve the system.
+title: "Bug - "
+labels: ["Bug", "Clarification"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You are amazing! 🚀
+        Thanks for reporting to the Znuny Community project!
+
+        **Important:** If you believe your issue is security related, please follow the [security guidelines](https://github.com/znuny/Znuny/blob/dev/SECURITY.md).
+
+  - type: input
+    id: server-os
+    attributes:
+      label: Server Operating System
+      description: What operating system is running on your server?
+      placeholder: e.g. Windows, MacOS, Linux
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What browser are you using?
+      placeholder: e.g. Chrome, Firefox, Safari
+    validations:
+      required: true
+
+  - type: input
+    id: znuny-version
+    attributes:
+      label: Znuny Version
+      description: What version of Znuny are you using?
+      placeholder: e.g. 7.0.12
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: Describe the expected behavior here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: A clear and concise description of what actually happened (the issue/bug/problem).
+      placeholder: Describe what actually happened here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the steps to reproduce the problem.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Add any other information about the problem here.
+      placeholder: Any other relevant information...
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: Add screenshots here or describe where to find them...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/znuny/Znuny/blob/dev/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
