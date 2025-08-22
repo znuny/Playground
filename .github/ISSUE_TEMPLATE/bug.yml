@@ -58,6 +58,20 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: database
+    attributes:
+      label: Database Type
+      description: What database are you using with Znuny?
+      options:
+        - MySQL 8.0+
+        - MariaDB 10.3+
+        - PostgreSQL 12.0+
+        - Oracle 19c+
+        - Other
+    validations:
+      required: true
+
   - type: textarea
     id: expected-behavior
     attributes:
@@ -88,6 +102,15 @@ body:
         4. See error
     validations:
       required: true
+
+  - type: textarea
+    id: error-messages
+    attributes:
+      label: Error Messages
+      description: If there are any error messages, please include them here.
+      placeholder: Copy and paste any error messages here...
+    validations:
+      required: false
 
   - type: textarea
     id: additional-info
