@@ -13,6 +13,24 @@ body:
 
         **Important:** If you believe your issue is security related, please follow the [security guidelines](https://github.com/znuny/Znuny/blob/dev/SECURITY.md).
 
+  - type: checkboxes
+    id: security-confirmation
+    attributes:
+      label: Security Issue Confirmation
+      description: Please confirm that this is not a security-related issue.
+      options:
+        - label: I confirm this is not a security-related issue
+          required: true
+
+  - type: checkboxes
+    id: search-confirmation
+    attributes:
+      label: Issue Search Confirmation
+      description: Please confirm that you have searched for similar issues before reporting.
+      options:
+        - label: I have searched for existing issues and found none that match this problem
+          required: true
+
   - type: input
     id: server-os
     attributes:
@@ -89,11 +107,4 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Confirmation
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/znuny/Znuny/blob/dev/CODE_OF_CONDUCT.md).
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+
