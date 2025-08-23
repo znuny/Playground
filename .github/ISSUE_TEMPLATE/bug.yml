@@ -35,8 +35,8 @@ body:
     id: server-os
     attributes:
       label: Server Operating System
-      description: What operating system is running on your server?
-      placeholder: e.g. Windows, MacOS, Linux
+      description: Which Linux distribution and version is running on your server?
+      placeholder: e.g. Debian GNU/Linux 12 (bookworm)
     validations:
       required: true
 
@@ -62,6 +62,7 @@ body:
     id: database
     attributes:
       label: Database Type
+      multiple: false
       description: What database are you using with Znuny?
       options:
         - MySQL 8.0+
@@ -69,6 +70,7 @@ body:
         - PostgreSQL 12.0+
         - Oracle 19c+
         - Other
+    default: 0
     validations:
       required: true
 
