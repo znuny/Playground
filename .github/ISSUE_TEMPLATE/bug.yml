@@ -70,7 +70,6 @@ body:
         - PostgreSQL 12.0+
         - Oracle 19c+
         - Other
-    default: 0
     validations:
       required: true
 
