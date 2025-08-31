@@ -1,12 +1,8 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://www.znuny.com/assets/znuny-logo.svg">
-  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://www.znuny.com/assets/znuny-logo-black.svg">
+  <img alt="Znuny' Dark: 'Znuny'" src="https://www.znuny.com/assets/znuny-logo-black.svg">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://www.znuny.com/assets/znuny-logo.svg">
-  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="[png](https://www.znuny.com/assets/znuny-logo-black.svg)">
-</picture>
 
 # Playground
 
